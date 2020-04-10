@@ -1,7 +1,7 @@
 import VueRouter from 'vue-router'
 import Vue from 'vue'
 
-// import login from '../view/login/login.vue'
+import login from '../view/login/login.vue'
 // import layout from '../view/home/layout.vue'
 
 const originalPush = VueRouter.prototype.push
@@ -15,15 +15,13 @@ const router = new VueRouter({
         //     path: "/",
         //     component: heima_user
         // },
-        // {
-        //     path: "/",
-        //     component: login
-        // },
+        {
+            path: "/",
+            component: login
+        },
 
-        // {
-        //     path: "/home",
-        //     component: layout
-        // },
+
+
 
         // {
         //     path: "/heima_subject",
